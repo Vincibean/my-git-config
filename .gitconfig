@@ -1,0 +1,10 @@
+[user]
+	name = Vincibean
+	email = andrebessi00@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[core]
+	autocrlf = input
+	excludesfile = /Users/andrea/.gitignore_global
